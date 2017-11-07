@@ -1,0 +1,40 @@
+{
+  "username" : "postgres",
+  "password" : "7b6a43524a322c0c6e6166771a1378700d662158",
+  "url" : "jdbc:postgresql://ec2-54-87-2-36.compute-1.amazonaws.com:5432/kavyadb",
+  "driverClass" : "org.postgresql.Driver",
+  "dialect" : "com.wavemaker.runtime.data.dialect.WMPostgresSQLDialect",
+  "serviceId" : "kavyadb",
+  "packageName" : "com.newdeletequerytestproject",
+  "dbType" : "PostgreSQL",
+  "host" : "ec2-54-87-2-36.compute-1.amazonaws.com",
+  "dbName" : "kavyadb",
+  "port" : "5432",
+  "schemaName" : "public",
+  "tableFilter" : [ {
+    "table" : "HEMANTH",
+    "schema" : "public"
+  }, {
+    "table" : "TABLE10",
+    "schema" : "public"
+  }, {
+    "table" : "TABLE16",
+    "schema" : "kavyatest1"
+  } ],
+  "schemaFilter" : [ ],
+  "impersonateUser" : false,
+  "activeDirectoryDomain" : null,
+  "hbm2ddl" : "none",
+  "maxPageSize" : 100,
+  "minPoolSize" : 2,
+  "maxPoolSize" : 4,
+  "transactionTimeout" : 30,
+  "dataSourceType" : "WM_MANAGED_DATASOURCE",
+  "jndiName" : "",
+  "reloadInfo" : {
+    "reload" : false,
+    "reason" : null,
+    "message" : null
+  },
+  "readOnly" : false
+}

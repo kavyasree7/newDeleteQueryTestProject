@@ -1,0 +1,43 @@
+{
+  "username" : "root",
+  "password" : "7b6a43524a353f1b666d7375425c32205754",
+  "url" : "jdbc:mysql://localhost:3306/sampleAug17Test?useUnicode=yes&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull",
+  "driverClass" : "com.mysql.jdbc.Driver",
+  "dialect" : "com.wavemaker.runtime.data.dialect.MySQLDialect",
+  "serviceId" : "sampleAug17Test",
+  "packageName" : "com.newdeletequerytestproject",
+  "dbType" : "MySQL",
+  "host" : "localhost",
+  "dbName" : "sampleAug17Test",
+  "port" : "3306",
+  "schemaName" : null,
+  "tableFilter" : [ {
+    "table" : "BlobIdentifier",
+    "schema" : null
+  }, {
+    "table" : "ID_TABLE1",
+    "schema" : null
+  }, {
+    "table" : "newTable",
+    "schema" : null
+  }, {
+    "table" : "TABLE106",
+    "schema" : null
+  } ],
+  "schemaFilter" : [ ],
+  "impersonateUser" : false,
+  "activeDirectoryDomain" : null,
+  "hbm2ddl" : "none",
+  "maxPageSize" : 100,
+  "minPoolSize" : 2,
+  "maxPoolSize" : 4,
+  "transactionTimeout" : 30,
+  "dataSourceType" : "WM_MANAGED_DATASOURCE",
+  "jndiName" : "",
+  "reloadInfo" : {
+    "reload" : false,
+    "reason" : null,
+    "message" : null
+  },
+  "readOnly" : false
+}
